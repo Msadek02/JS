@@ -1,8 +1,3 @@
-$("button").click(function(){
-    $("#textarea").hide();
+$('.alert').click(function(){
+    $('#textarea').slideToggle();
 });
-
-$("button").click(function(){
-    $("#textarea").show();
-});
-
