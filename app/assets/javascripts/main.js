@@ -1,3 +1,3 @@
-$('.alert').click(function(){
-    $('#textarea').slideToggle();
+$(document).ready(function() {
+    $("#menu").accordion({collapsible: true, active: false});
 });
