@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  get 'welcome/Index'
+  root to: 'welcome#Index'
 end

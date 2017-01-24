@@ -1,0 +1,25 @@
+%html
+  %head
+    %title Behold!
+    %button.pushme PushMe
+  %body
+    #menu.hide
+      %div
+        %p Welcome to Charlotte with love.
+        %div
+
+    #form-test
+      %form{:action => "action_page.php"}
+        .firstname
+          First name:
+          %br/
+          %input{:name => "firstname", :type => "text"}
+          %br/
+        .lastname.hide
+          Last name:
+          %br/
+          %input{:name => "lastname", :type => "text"}
+        %br
+        %input{:type => "submit", :value => "Submit"}
+        %span
+        
