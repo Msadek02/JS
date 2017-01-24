@@ -1,3 +1,4 @@
-$(document).ready(function() {
-    $("#menu").accordion({collapsible: true, active: false});
+$(document).click(function() {
+    $("#menu").slideUp();
+    $("#menu").slideDown();
 });
