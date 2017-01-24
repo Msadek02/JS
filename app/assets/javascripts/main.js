@@ -1,3 +1,5 @@
-$(document).click(function() {
-    $("#menu").slideToggle();
+$(document).ready(function() {
+    $('.pushme').click(function() {
+            $('#menu').slideToggle("fast");
+    });
 });
