@@ -7,5 +7,19 @@
       %div
         %p Welcome to Charlotte with love.
         %div
-          %input.hide{:name => "mytext[]", :type => "text"}/
-%input{:name => "mytext[]", :type => "text"}/
+
+    #form-test
+      %form{:action => "action_page.php"}
+        .firstname
+          First name:
+          %br/
+          %input{:name => "firstname", :type => "text"}
+          %br/
+        .lastname.hide
+          Last name:
+          %br/
+          %input{:name => "lastname", :type => "text"}
+        %br
+        %input{:type => "submit", :value => "Submit"}
+        %span
+        
