@@ -1,4 +1,3 @@
 $(document).click(function() {
-    $("#menu").slideUp();
-    $("#menu").slideDown();
+    $("#menu").slideToggle();
 });
